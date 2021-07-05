@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranid Rashi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="css/Index.css">
+
+</head>
+<body class="">
+    <header style="background-color: white;">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-xl-12  text-center pt-3">
+                <h1 style="font-weight: bold;font-family: 'Courier New', monospace;" >ranid._</h1>
+            </div>
+            <div class="container">
+            <div class=" col-md-12 col-xs-12 col-sm-12 col-xl-12 pt-1 my-auto d-flex justify-content-center">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                     <a class="nav-item nav-link active " href="#homi">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#servi">Services</a>
+                        <a class="nav-item nav-link active" href="#skill">Skills</a>
+                       </nav>
+            </div>
+        </div>
+        
+        </div>
+    </header>
+    <section id="homi" style="background-color: #E6FF03;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div  class="col-md-6 p-5 d-flex justify-content-center" >
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEvFsw3Al4Oqg/profile-displayphoto-shrink_200_200/0/1619478279290?e=1631145600&v=beta&t=d1TbOSJhJRzesiH0x3W_zqF6y72xOeWipubCK9-SNlo" alt="" 
+                class="img-fluid rounded-circle">
+
+            </div>
+            <div  class=" col-md-6 pt-3">
+               <h3 class="d-flex justify-content-center" style="font-weight: bold;"> RANID RASHI</h3>
+               <br>
+                <h4 class="d-flex justify-content-center">
+                    WEB DESIGNER | STUDENT<br>
+                    Calicut  ,  Kerala  ,  India</h4>
+                    <p class="d-flex justify-content-center" style="font-weight: bold;font-family: 'Courier New', monospace;">"An injured lion still wants to roar"</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="servi" class="p-4" style="background-color: white;">
+    <div class="container">
+        <h2 class="text-center h1-responsive" style="font-weight: bold;">Services</h2>
+        <div class="row p-5">
+            <div class="col-md-4 d-flex justify-content-center pt-5">
+                <div class="neu p-4" style="width: 18rem;">
+                    <img class="card-img-top" src="https://image.flaticon.com/icons/png/512/1055/1055687.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Web design</h5>
+                      <p class="card-text">Creates responsive static websites using bootstrap </p>
+                      
+                     </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center pt-5">
+                <div class="neu  p-4" style="width: 18rem;">
+                    <img class="card-img-top" src="https://image.flaticon.com/icons/png/512/1077/1077650.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">UI design</h5>
+                      <p class="card-text">Designs websites and apps using Figma and Adobe xd</p>
+                      
+                     </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center pt-5">
+                <div class="neu  p-4" style="width: 18rem;">
+                    <img class="card-img-top" src="https://image.flaticon.com/icons/png/512/1260/1260169.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">UX Development</h5>
+                      <p class="card-text">-Sketching<br>-Wireframe<br>-Prototype</p>
+                      
+                     </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+<section id="skill" class=" p-4" style="background-color: #FC2F2F;">
+    <div class="container">
+        <h2 class="text-center h1-responsive" style="font-weight: bold;">Skills</h2>
+        <p class="text-center text-white">“First, solve the problem. Then, write the code.”</p>
+        <h5>Html</h5>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div><br>
+          <h5>Css</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div><br>
+          <h5>Java script</h5>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div><br>
+          <h5>Bootstrap</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div><br>
+          <h5>Git</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div><br>
+          <h5>React js</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+    </div>
+</section>
+
+<section id="prof" class="p-5" style="background-color: white;">
+    <div class="container">
+        <h2 class="text-center h1-responsive" style="font-weight: bold;">Connect me</h2>
+        <div class="row p-1 ">
+            <a href="https://z-p42.www.instagram.com/ranid._/?hl=am-et" >
+            <div class=" col-md-3   d-flex justify-content-center pt-5">
+                <h5>instagram<br</h5>
+            </a>
+                <img class="svu card-img-top" src="https://image.flaticon.com/icons/png/128/2111/2111463.png" alt="Card image cap"><br>
+                
+            </div>
+        
+            <a href="">
+            <div class="col-md-3   d-flex justify-content-center pt-5">
+                <h5>facebook<br</h5>
+            </a>
+                <img class="svu card-img-top" src="https://image.flaticon.com/icons/png/128/145/145802.png" alt="Card image cap">
+            </div>
+            <a href="https://in.linkedin.com/in/ranid-rashi-90382a1b2">
+            <div class=" col-md-3  d-flex justify-content-center pt-5">
+                <h5>linkedin<br</h5>
+            </a>
+                <img class="svu card-img-top" src="https://image.flaticon.com/icons/png/128/179/179330.png" alt="Card image cap">
+            </div>
+            <a href="">
+            <div class="col-md-3  d-flex justify-content-center pt-5">
+                <h5>twiter<br</h5>
+            </a>
+                <img class="svu card-img-top" src="https://image.flaticon.com/icons/png/128/145/145812.png" alt="Card image cap">
+            </div>
+            
+           
+        </div>
+    </div>
+</section>
+
+            <!--Section: Contact v.2-->
+<section class="mb-4 " style="background-color: #E6FF03;">
+    <div class="container">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="https://script.google.com/macros/s/AKfycbxRyjiSZG_wyrck28bu1VQGDxbhCQSmNhjMjApYANPAMbKVkm5PILg21FXYqro-1iTu/exec" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Mobile number</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form><br>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+        <br>
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Calicut  ,  Kerala  ,  India</p>
+                </li>
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>Ranid Rashi<br>+91 9188871228</p>
+                </li>
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>raravlogs666@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+</div>
+
+</section>
+<!--Section: Contact v.2-->
+<footer style="background-color: white;">
+
+    <div class="container">
+        <div class="row  d-flex justify-content-center">
+            <div class="col-xs-3 ">
+                <a href="https://z-p42.www.instagram.com/ranid._/?hl=am-et">
+            <div class="  d-flex justify-content-center pt-2">
+                
+                <img class="see card-img-top" src="https://image.flaticon.com/icons/png/128/2111/2111463.png" alt="Card image cap"><br>
+                
+            </div>
+        </a>
+        </div>
+        <div class="col-xs-3">
+            <a href="">
+            <div class="   d-flex justify-content-center pt-2">
+                
+                <img class="see card-img-top" src="https://image.flaticon.com/icons/png/128/145/145802.png" alt="Card image cap">
+            </div>
+        </a>
+        </div>
+        <div class="col-xs-3">
+            <a href="https://in.linkedin.com/in/ranid-rashi-90382a1b2">
+            <div class="  d-flex justify-content-center pt-2">
+                
+                <img class="see card-img-top" src="https://image.flaticon.com/icons/png/128/179/179330.png" alt="Card image cap">
+            </div>
+        </a>
+        </div>
+        <div class="col-xs-3">
+            <a href="">
+            <div class="  d-flex justify-content-center pt-2">
+                
+                <img class="see card-img-top" src="https://image.flaticon.com/icons/png/128/145/145812.png" alt="Card image cap">
+            </div>
+        </a>
+        </div>
+        
+            <div class="col-sm-12 p-4 d-flex justify-content-center">
+            <p >Copyright ©Ranid Rashi 2021</p>
+        </div>
+        </div>
+    </div>
+
+</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

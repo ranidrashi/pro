@@ -1,0 +1,21 @@
+.neu{
+    
+    background-color: none;
+    box-shadow: -20px 0px 0px white, 2px 2px 3px black;
+    border-radius: 35px;
+}
+body{
+    background-color:none;
+    font-weight: bold;
+}
+.svu{
+    width: 35px;
+
+}
+.see{
+    width: 27px;
+
+}
+.neu:hover{
+    background-color:yellow;
+}
